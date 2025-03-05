@@ -25,7 +25,7 @@ body {
 	background-color: #1F2937;
 	color: #F9FAF8;
 	padding: 50px 200px;
-	gap: 20px;
+	gap: 100px;
 
 	display: flex;
 	flex-flow: column nowrap;
@@ -41,4 +41,48 @@ body {
 .logo {
 	font-size: 24px;
 	font-weight: 700;
+}
+.hero {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.hero-st {
+	display: flex;
+	flex-flow: column nowrap;
+
+	gap: 10px;
+}
+.hero-ca {
+	font-size: 48px;
+	font-weight: 900;
+	color: #F9FAF8;
+
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 400px;
+}
+.hero-tx {
+	font-size: 18px;
+	color: #E5E7EB;
+
+	display: flex;
+	flex-flow: row wrap;
+	max-width: 400px;
+}
+button {
+	padding: 8px 12px;
+	background-color: #3882F6;
+	color: #E5E7EB;
+	border: #E5E7EB;
+	border-radius: 8px;
+}
+.rect {
+	width: 600px;
+	height: 250px;
+	background-color: grey;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
