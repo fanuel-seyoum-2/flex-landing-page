@@ -131,3 +131,32 @@ button {
 	font-size: 27px;
 	font-weight: 700;
 }
+.call-to-action {
+	padding: 100px 200px;
+}
+.cta {
+	padding: 50px;
+	border-radius: 10px;
+	background-color: #3882F6;
+	color: #F9FAF8;
+
+	display: flex;
+	justify-content: space-between;
+}
+.cta-hd {
+	font-weight: 700;
+}
+.cta-tx {
+	display: flex;
+	flex-flow: column nowrap;
+}
+.cta-bt {
+	border: solid 1px white;
+	border-radius: 8px;
+	padding: 3px 12px;
+}
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
