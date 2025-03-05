@@ -108,6 +108,7 @@ button {
 	color: #1F2937;
 }
 .info-cards {
+	padding: 50px;
 	display: flex;
 	flex-flow: row wrap;
 	gap: 40px;
