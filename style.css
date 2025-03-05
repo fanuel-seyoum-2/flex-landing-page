@@ -71,7 +71,8 @@ body {
 	max-width: 400px;
 }
 button {
-	padding: 8px 12px;
+	font-weight: 700;
+	padding: 12px 14px;
 	background-color: #3882F6;
 	color: #E5E7EB;
 	border: #E5E7EB;
@@ -85,4 +86,31 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.info {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	gap: 40px;
+}
+.info-hd {
+	font-weight: 900;
+	font-size: 36px;
+	color: #1F2937;
+}
+.info-cards {
+	display: flex;
+	gap: 40px;
+}
+.sq-ph {
+	width: 200px;
+	height: 200px;
+	border: solid 4px #3882F6;
+	border-radius: 13px;
+}
+.sq-in {
+	display: flex;
+	flex-flow: row wrap;
+
+	max-width: 200px;
 }
